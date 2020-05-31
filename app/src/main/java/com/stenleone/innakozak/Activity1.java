@@ -55,6 +55,7 @@ public class Activity1 extends AppCompatActivity {
 
         initRecycler(initDatabase());
         initRetrofit();
+        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
     }
 
     void init(){
